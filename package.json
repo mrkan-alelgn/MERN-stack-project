@@ -1,7 +1,7 @@
 {
-  "name": "react-express--starter",
+  "name": "MERN-stack-project",
   "version": "1.0.0",
-  "description": "React Express Starter Pack",
+  "description": "MERN-stack-project",
   "main": "server.js",
   "scripts": {
     "client-install": "cd && npm install",
