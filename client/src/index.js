@@ -4,11 +4,10 @@ import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
-import Navbar from "./components/navbar.jsx";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navbar />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
