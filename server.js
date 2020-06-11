@@ -3,7 +3,7 @@ const express = require("express")
 const app = express()
 
 const PORT = 5000
-
+console.log("said")
 app.get("/api/customers", (req, res) => {
     const customers = [
         {
@@ -32,7 +32,7 @@ app.get("/api/customers", (req, res) => {
             lastName: "Martinez"
         },
     ]
-
+    console.log(customers)
     res.json(customers)
 })
 
