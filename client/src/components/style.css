@@ -4,9 +4,15 @@
 .logo {
   width: 177px;
 }
+#navbar2 {
+  background-color: white;
+}
 .secondNavElement :hover {
   background-color: mediumturquoise;
 }
 .secondNavElement {
   margin: 0px 8px;
+}
+body {
+  background-color: #041627;
 }
