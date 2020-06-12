@@ -1,5 +1,5 @@
 # MERN-stack-project
-
+for now it contains only react and express. we will add mongodb database later
 ## Steps
 
 ### 1. npm install
