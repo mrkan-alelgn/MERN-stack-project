@@ -8,7 +8,6 @@ function App() {
   return (
     <Fragment>
       <Navbar />
-      <Sidebar />
       <div className="main"></div>
     </Fragment>
   );

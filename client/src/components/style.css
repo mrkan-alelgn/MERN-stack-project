@@ -1,0 +1,12 @@
+#navbar {
+  background-color: #013972;
+}
+.logo {
+  width: 177px;
+}
+.secondNavElement :hover {
+  background-color: mediumturquoise;
+}
+.secondNavElement {
+  margin: 0px 8px;
+}
