@@ -15,4 +15,104 @@
 }
 body {
   background-color: #041627;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+#sticky-sidebar-left {
+  max-height: calc(100vh - 9rem);
+  overflow-y: auto;
+  width: 20%;
+}
+#sticky-sidebar-left-inner {
+  max-height: calc(100vh - 20rem);
+  overflow-y: auto;
+}
+#sticky-sidebar-right {
+  background-color: #013972;
+  width: 26%;
+  color: white;
+  max-height: calc(100vh - 9rem);
+}
+
+#main {
+  max-height: calc(100vh - 9rem);
+  overflow-y: auto;
+}
+#logo2 {
+  width: 100%;
+}
+#filterByTime {
+  border-style: solid;
+  border-width: 12px 0px 12px 12px;
+  border-color: #013972;
+  height: 70px;
+  width: 100%;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+#filterLink {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+#mainDiv {
+  border-style: solid;
+  border-width: 10px 0px 2px 0px;
+  border-color: #021d36;
+  border-bottom-color: grey;
+  height: 50px;
+  width: 100%;
+}
+#mainDiv1 {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  border-style: solid;
+  border-width: 0px 2px 0px 0px;
+  border-right-color: grey;
+  padding-top: 5px;
+}
+#mainDiv2 {
+  width: 50%;
+  float: left;
+  text-align: center;
+  padding-top: 5px;
+}
+
+#mainDiv2 a {
+  text-decoration: none;
+  color: black;
+}
+#mainDiv1 a {
+  text-decoration: none;
+  color: black;
+}
+a :hover {
+  color: grey;
+}
+.leagues {
+  width: 20px;
+  height: 20px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  border-radius: 50%;
+}
+#sidebarRight {
+  height: 160px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(108, 158, 156);
+  text-align: center;
+}
+#sidebarRight1 {
+  height: 40px;
+  background-color: rgb(108, 158, 156);
+  padding-top: 5px;
+  padding-left: 10px;
+}
+h5 {
+  margin-top: 40px;
 }
